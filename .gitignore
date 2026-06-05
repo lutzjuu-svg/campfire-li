@@ -7,10 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies and Builds
 node_modules
 dist
 dist-ssr
-*.local
+
+# Local env files (HINZUGEFÜGT - Schützt deine Supabase Keys!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env.*
 
 # Editor directories and files
 .vscode/*
